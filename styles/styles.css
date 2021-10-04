@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pitch {
+  z-index: -1;
+  width: 100%;
+}
+.wickets {
+  position: absolute;
+  top: 330px;
+  left: 40px;
+  transform: skewX(50deg);
+}
+.bat {
+  position: absolute;
+  bottom: 100px;
+  left: 140px;
+  width: 200px;
+  transform: skew(50deg);
+}
+.ball {
+  position: absolute;
+  bottom: 100px;
+  right: 70px;
+  width: 70px;
+  transform: rotate(60deg);
+}

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.second {
+  display: none;
+}
 .pitch {
   z-index: -1;
   width: 100%;
@@ -32,6 +35,20 @@
   left: 45%;
   height: 50px;
   width: 100px;
+  background-color: blue;
+  color: aliceblue;
+  font-size: 20px;
+}
+.start {
+  position: absolute;
+  top: 200px;
+  left: 45%;
+  height: 50px;
+  background-color: green;
+  color: aliceblue;
+  font-size: 20px;
+  width: 100px;
+  z-index: -1;
 }
 .ground {
   width: 100%;

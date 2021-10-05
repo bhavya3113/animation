@@ -41,14 +41,15 @@ var time = setInterval(flip, 1);
 function start(){
   first.style.display="none";
   second.style.display="block";
-  
   interval = setInterval(play,1);
 }
 
 var flag2 =0;
+var ball_rot =20;
 function play(){
   if(flag2 ==0){
-
+    ball_rot +=3;
+    ball.style.transform=`rotate(${ball_rot}deg)`;
     ball.style.right = ball_pos +'px';
     ball_pos++;
     if(parseInt(ball.style.right)>=screen.width-330 )
@@ -72,5 +73,5 @@ function play(){
     ball.style.right = right+'px';
     ball.style.bottom = bottom+'px';
   }
-  }
+}
 };

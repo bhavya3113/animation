@@ -26,10 +26,22 @@
   right: 80px;
   width: 70px;
 }
-/* .btn-play {
+.btn-play {
   position: absolute;
   top: 50px;
   left: 45%;
   height: 50px;
   width: 100px;
-} */
+}
+.ground {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+.coin {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  height: 100px;
+  width: 100px;
+}

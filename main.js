@@ -7,6 +7,7 @@ var first = document.querySelector(".first");
 var second = document.querySelector(".second");
 var ball_pos = screen.width - 1300;
 var bottom = 150;
+var timeout;
 var right =screen.width-250;
 var coinTop = 300;
 var flag1 =1;
@@ -33,14 +34,13 @@ var time = setInterval(flip, 1);
     {
       clearInterval(time);
       coin.style.transform = "rotateX(20deg)";
-      setTimeout(function(){
-        start_btn.style.zIndex=2;
-      },200);
+      timeout= setTimeout(start,1000);
     }   
 };
 function start(){
   first.style.display="none";
   second.style.display="block";
+  clearTimeout(timeout);
   interval = setInterval(play,1);
 }
 

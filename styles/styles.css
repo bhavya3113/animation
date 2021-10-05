@@ -23,7 +23,13 @@
 .ball {
   position: absolute;
   bottom: 100px;
-  right: 70px;
+  right: 80px;
   width: 70px;
-  transform: rotate(60deg);
 }
+/* .btn-play {
+  position: absolute;
+  top: 50px;
+  left: 45%;
+  height: 50px;
+  width: 100px;
+} */
